@@ -14,28 +14,51 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Gravitas One', cursive;
   font-family: 'Rammetto One', cursive;
-  font-family: 'Comfortaa', cursive;
+  font-family: Comfortaa, cursive;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 .img-flex {
   display: block;
   width: 100%;
 }
 
-.banner {
-  position: relative;
-  max-height: 24rem;
+.card {
   overflow: hidden;
+
+  background-color: #e97065;
+
 }
 
-.banner-content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  color: #fff;
-  width: 100%;
+.watermellon {
+  font-family: 'Rammetto One', cursive;
+}
+
+
+.card:nth-child(2) {
+  overflow: hidden;
+
+  background-color: #fbd25e;
+
+}
+
+.starfruit{
+  font-family: 'Gravitas One', cursive;
+}
+
+.card:nth-child(3) {
+  overflow: hidden;
+
+  background-color: #e86033;
+
+}
+
+.persimmon{
+  font-family: 'Open Sans', sans-serif;
 }
